@@ -1,0 +1,24 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+.box-container{
+    padding: 30px;
+    text-align: center;
+    width: 600px;
+    margin: auto;
+    margin-top: 80px;
+    box-shadow: 6px 6px 30px rgb(128, 127, 127);
+}
+.box-container p{
+    line-height: 30px;
+    color: rgb(105, 105, 105);
+    margin-bottom: 40px;
+}
+.img-rounded{
+    border-radius: 50%;
+    width: 80px;
+    margin-bottom: 20px;
+}

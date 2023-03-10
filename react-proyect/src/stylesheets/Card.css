@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+@font-face {
+    font-family: 'Outfit';
+    src: url(../fonts/Outfit-VariableFont_wght.ttf);
+}
+body{
+    background-color:#0d1a2d;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.container{
+    background-color: #14273f;
+    width: 350px;
+    height: 620px;
+    border-radius: 1em;
+    box-shadow: black 2px 3px 3rem;
+}
+.diamante{
+    display: flex;
+    justify-content: center;
+    height: 300px;
+    margin-top: 16px;
+}
+.diamante img{
+    border-radius: 1em;
+    margin-top: 20px;
+}
+.info{
+    font-family: 'Outfit';
+    margin: 3px 25px 9px;
+    font-size: 18px;
+    margin-top: 15px;
+}
+.texto{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+.parrafo{
+    margin-top: 10px;
+}
+.icono1{
+    display: flex;
+}
+.icono2{
+    display: flex;
+}
+.tit-color{
+    color: #33dbd6;
+    margin: 17px;
+}
+.titulo2{
+    margin: 17px;
+    font-size: 16px;
+}
+.linea{
+    margin: 3px 25px 9px;
+    background-color: azure;
+    width: 300px;
+    height: 1px;
+}
+.info-hombre{
+    display: flex;
+    font-family: 'Outfit';
+    align-items: center;
+    margin-top: 15px;
+}
+.julie{
+    width: 60px;
+    height: 60px;
+    margin: 1px 20px;
+    border:  2px solid white;
+    border-radius: 50%;
+}
+.reloj{
+    margin-top: 15px;
+    width: 30px;
+    height: 30px;
+    margin: 15px;
+}
+.icono{
+    margin-top: 15px;
+    height: 30px;
+}
+.App{
+    display: flex;
+    padding: 20px;
+    gap: 3rem;
+}

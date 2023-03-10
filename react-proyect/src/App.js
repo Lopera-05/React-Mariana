@@ -55,8 +55,6 @@ function App () {
     imgCarrera="carrera3.png"
     imgEdad="edad.png"/>
   </div>
-  
-
   )
   
 }
